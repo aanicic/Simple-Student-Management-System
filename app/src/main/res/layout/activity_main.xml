@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#BCBCBC">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"
+        android:cropToPadding="true"
+        android:scaleType="center"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ITA Lista studenata"/>
+
+    <EditText
+        android:inputType="text"
+        android:textColorHint="#F31111"
+        android:hint="Ime studenta"
+        android:id="@+id/imeStudenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:inputType="text"
+        android:textColorHint="#F31111"
+        android:hint="Prezime studenta"
+        android:id="@+id/prezimeStudenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="number"
+        android:textColorHint="#F31111"
+        android:hint="Školska godina"
+        android:id="@+id/skolskaGodina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:maxLength="2"
+        android:inputType="number"
+        android:textColorHint="#F31111"
+        android:hint="Broj bodova od 0 do 99"
+        android:id="@+id/brojBodova"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Dodaj studenta"
+        android:id="@+id/dodajStudenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Lista studenata"
+        android:id="@+id/listaStudanata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Izbriši bazu"
+        android:id="@+id/izbrisiBazu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by Aleksandar Aničić"/>
+
+
+
+
+
+
+</LinearLayout>
